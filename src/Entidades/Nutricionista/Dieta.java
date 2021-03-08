@@ -5,15 +5,15 @@ import Entidades.Utils.Refeicao;
 
 public class Dieta {
     
-    private Refeicao[] refeicoes; 
+    private ArrayList<Refeicao> refeicoes; 
     
     public Dieta(){};
     
-    public Refeicao[] getRefeicoes() {
+    public ArrayList<Refeicao> getRefeicoes() {
         return this.refeicoes;
     }
     
-    public void setRefeicoes(Refeicao[] r) {
+    public void setRefeicoes(ArrayList<Refeicao> r) {
         this.refeicoes = r;
     }
 
